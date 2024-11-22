@@ -67,3 +67,6 @@ app.post('/newbook', (req: Request, res: Response) => {
     res.send('Invalid Inputs');
   }
 });
+
+// if there all test pass, in action in github, there will be a ✔
+// if there is test fails, there will be a yellow sign
