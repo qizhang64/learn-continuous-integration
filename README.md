@@ -44,8 +44,11 @@ First setup your machine or your teammate's machine to be the self hosted runner
 Answer the following questions:
 
 1. What does the __runs-on__ string  
+    The type of environment that GitHub actions workflow will be executed
 2. In `main.yml`, on which branch do the jest tests run when a push to main branch is made?
+    main branch
 3. In `main.yml`, on which branch do the jest tests run when a pull request is submitted to the deploy branch?
+    deploy branch
 
 Next, create a new workflow yml file that captures the following continuous integration requirement:
 
